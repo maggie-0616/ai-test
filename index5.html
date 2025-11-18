@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>ITE130 - Studentupplevelser | MDU</title>
+    <!-- Bootstrap 4.6 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <style>
+        /* MDU färgtema och font-arv */
+        body {
+            background: #fff0e8;
+            color: #ff4800;
+            font-family: inherit;
+        }
+        .navbar {
+            background-color: #00352d;
+            font-family: inherit;
+        }
+        .navbar-brand, .nav-link {
+            color: #ff4800 !important;
+            font-family: inherit;
+        }
+        .jumbotron {
+            background: #00352d;
+            color: #ff4800;
+            border-radius: 1rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            font-family: inherit;
+        }
+        .jumbotron h1 {
+            font-weight: bold;
+        }
+        .card {
+            border-radius: 1rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            background: #ffffff;
+            color: #ff4800;
+            font-family: inherit;
+        }
+        .card-title {
+            color: #ff4800;
+            font-family: inherit;
+        }
+        .bubble {
+            background: #ff4800;
+            color: #202330;
+            border-radius: 2rem;
+            padding: 0.5rem 1rem;
+            display: inline-block;
+            margin-bottom: 0.5rem;
+            font-family: inherit;
+        }
+        .fact-box {
+            background: #ffffff;
+            color: #ff4800;
+            border-left: 8px solid #ff4800;
+            padding: 1rem;
+            border-radius: 1rem;
+            margin-bottom: 2rem;
+            font-family: inherit;
+        }
+        .student-story {
+            background: #00352d;
+            color: #ff4800;
+            border-radius: 1rem;
+            padding: 1rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            font-family: inherit;
+        }
+        footer {
+            background: #fff0e8;
+            color: #ff4800;
+            font-family: inherit;
+        }
+        /* Gör alla titlar till fetstil */
+        h1, h2, h3, h4, h5, h6 {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">ITE130 @ MDU</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" style="color:#ff4800;"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#student-stories">Studentberättelser</a></li>
+                <li class="nav-item"><a class="nav-link" href="#facts">Fakta om GIT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Jumbotron med kursinfo -->
+    <div class="jumbotron text-center mt-4">
+        <h1 class="display-4">ITE130 - Interaktiva användargränssnitt</h1>
+        <p class="lead">En kurs på MDU där du lär dig skapa moderna, responsiva och användarvänliga webbsidor med kodens magi!</p>
+        <span class="bubble">MDU</span>
+        <span class="bubble">ITE130</span>
+        <span class="bubble">Vibe Coding</span>
+    </div>
+
+    <div class="container">
+        <!-- Card decks med kursmoment -->
+        <div class="row mb-4">
+            <!-- Card 1 -->
+            <div class="col-md-4 mb-3">
+                <div class="card h-100">
+                    <!-- Kursmoment: HTML & CSS -->
+                    <div class="card-body">
+                        <h5 class="card-title">HTML & CSS</h5>
+                        <p class="card-text">Grunderna i webbutveckling. Skapa struktur och design med kod.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-md-4 mb-3">
+                <div class="card h-100">
+                    <!-- Kursmoment: JavaScript -->
+                    <div class="card-body">
+                        <h5 class="card-title">JavaScript</h5>
+                        <p class="card-text">Gör webbsidan interaktiv och dynamisk med programmering.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-md-4 mb-3">
+                <div class="card h-100">
+                    <!-- Kursmoment: UX/UI Design -->
+                    <div class="card-body">
+                        <h5 class="card-title">UX/UI Design</h5>
+                        <p class="card-text">Lär dig skapa användarvänliga och snygga gränssnitt.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Studentberättelser -->
+        <h2 id="student-stories" class="mb-3" style="color:#ff4800;">Studentberättelser</h2>
+        <div class="student-story">
+            <!-- Student 1 berättar -->
+            <strong>Emma:</strong>
+            <p>"Jag trodde webbutveckling skulle vara svårt, men ITE130 har verkligen gjort det roligt och inspirerande! Att se min kod bli till en riktig webbsida är magiskt."</p>
+        </div>
+        <div class="student-story">
+            <!-- Student 2 berättar -->
+            <strong>Ali:</strong>
+            <p>"Kursen har gett mig självförtroende att skapa egna projekt. Bootstrap och Emmet cheatsheat gör det enkelt att få allt att se proffsigt ut!"</p>
+        </div>
+        <div class="student-story">
+            <!-- Student 3 berättar -->
+            <strong>Sofia:</strong>
+            <p>"Jag älskar att vi får jobba med riktiga case och samarbeta. GIT har varit ovärderligt för att hålla ordning på våra filer!"</p>
+        </div>
+
+        <!-- Fakta om GIT -->
+        <h2 id="facts" class="mb-3" style="color:#ff4800;">Fakta om GIT</h2>
+        <div class="fact-box">
+            <!-- Faktaruta om GIT -->
+            <h5>Vad är GIT?</h5>
+            <p>GIT är ett versionshanteringssystem som hjälper dig att hålla koll på ändringar i din kod. Du kan samarbeta med andra, gå tillbaka till tidigare versioner och undvika att förlora arbete. GIT används av utvecklare världen över och är en grundpelare i modern webbutveckling.</p>
+            <ul>
+                <li>Spåra ändringar i kod</li>
+                <li>Samarbeta i team</li>
+                <li>Återställ tidigare versioner</li>
+                <li>Open source och gratis</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center py-4 mt-5">
+        <!-- Footer med MDU-färger -->
+        &copy; 2025 MDU | ITE130 | Vibe Coding
+    </footer>
+
+    <!-- Bootstrap 4.6 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
